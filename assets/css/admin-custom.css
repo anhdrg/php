@@ -1,0 +1,44 @@
+/* /assets/css/admin-custom.css */
+
+/* Ví dụ: Thêm một số style tùy chỉnh cho các bảng trong admin */
+.admin-content table {
+    background-color: #fff;
+}
+
+.admin-content .table thead th {
+    background-color: #e9ecef;
+    border-bottom-width: 1px;
+}
+
+.admin-content .card {
+    margin-bottom: 1.5rem;
+}
+
+.page-identifier {
+    font-size: 1.5rem; /* Kích thước tiêu đề trang trong admin content header */
+}
+
+/* Style cho sidebar đã được thêm inline trong header.php, bạn có thể chuyển qua đây */
+/*
+.admin-sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: #fff;
+    min-height: 100vh; 
+    padding-top: 1rem;
+}
+.admin-sidebar .nav-link {
+    color: #adb5bd;
+    padding: 0.75rem 1rem;
+}
+.admin-sidebar .nav-link:hover,
+.admin-sidebar .nav-link.active {
+    color: #fff;
+    background-color: #495057;
+}
+.admin-sidebar .nav-link .fas {
+    margin-right: 0.75rem;
+    width: 20px; 
+    text-align: center;
+}
+*/

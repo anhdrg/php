@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Đặt RewriteBase cho phù hợp với thư mục public của bạn
+
+
+  # Nếu yêu cầu không phải là file hoặc thư mục hiện có
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Chuyển hướng tất cả các yêu cầu đến index.php
+  RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+</IfModule>
+
+# Ngăn chặn liệt kê thư mục
+Options -Indexes
+
+# Bảo vệ file .htaccess
+<Files ".htaccess">
+  Require all denied
+</Files>
+
+# Bảo vệ các file nhạy cảm khác
+<FilesMatch "^\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh|env|bak|config|sql)$">
+  Require all denied
+</FilesMatch>

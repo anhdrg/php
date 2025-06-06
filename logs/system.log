@@ -1,0 +1,162 @@
+ 
+[2025-06-04 16:23:20] [ERROR] Lỗi thực thi SQL: SQLSTATE[HY093]: Invalid parameter number | SQL: SELECT * FROM users WHERE username = :username_or_email OR email = :username_or_email
+[2025-06-04 16:47:50] [ERROR] 404 - Action 'deposit' không tìm thấy trong controller 'CheckoutController'. Requested URI: checkout/deposit
+[2025-06-04 16:49:37] [INFO] [PayOSGateway] Create Payment Request. OrderCode: DEP-2-1749030577-326, PartnerCode (from config): justinanh. Payload (example): {"orderCode":0,"amount":50000,"description":"Nap tien tai khoan DEP-2-1749030577-326","buyerName":"Ph\u1ea1m Ho\u00e0ng \u0110\u1ee9c Anh","buyerEmail":"anhdrg3@gmail.com","buyerPhone":"09xxxxxxxx","cancelUrl":"http:\/\/localhost\/bulu-monster-shop\/public\/payment\/deposit-cancel\/1\/payos","returnUrl":"http:\/\/localhost\/bulu-monster-shop\/public\/payment\/deposit-success\/1\/payos"}
+[2025-06-04 16:49:43] [INFO] [SEPayGateway] Create Payment Request (Placeholder): {"orderCode":"DEP-2-1749030583-560","amount":50000,"description":"Nap tien tai khoan DEP-2-1749030583-560","buyerName":"Ph\u1ea1m Ho\u00e0ng \u0110\u1ee9c Anh","buyerEmail":"anhdrg3@gmail.com","buyerPhone":"09xxxxxxxx","cancelUrl":"http:\/\/localhost\/bulu-monster-shop\/public\/payment\/deposit-cancel\/2\/sepay","returnUrl":"http:\/\/localhost\/bulu-monster-shop\/public\/payment\/deposit-success\/2\/sepay","notifyUrl":"http:\/\/localhost\/bulu-monster-shop\/public\/api\/webhook-handler.php?gateway=sepay","localTransactionId":"2"}
+[2025-06-04 16:50:56] [ERROR] 404 - Action 'dashboard' không tìm thấy trong controller 'AdminController'. Requested URI: admin/dashboard
+[2025-06-04 16:54:22] [ERROR] 404 - Controller file 'Transaction-historyController.php' không tìm thấy. Requested URI: transaction-history
+[2025-06-04 16:58:16] [ERROR] 404 - Controller file 'Transaction-historyController.php' không tìm thấy. Requested URI: transaction-history
+[2025-06-04 17:01:52] [ERROR] 404 - Controller file 'Transaction-historyController.php' không tìm thấy. Requested URI: transaction-history
+[2025-06-04 17:02:59] [ERROR] 404 - Controller file 'Transaction-historyController.php' không tìm thấy. Requested URI: transaction-history
+[2025-06-04 17:12:06] [ERROR] 404 - Action 'dashboard' không tìm thấy trong controller 'AdminController'. Requested URI: admin/dashboard
+[2025-06-04 17:28:33] [ERROR] 404 - Action 'statistics' không tìm thấy trong controller 'AdminController'. Requested URI: admin/statistics
+[2025-06-04 17:28:36] [ERROR] 404 - Action 'seo_settings' không tìm thấy trong controller 'AdminController'. Requested URI: admin/seo-settings
+[2025-06-04 17:29:22] [ERROR] 404 - Action 'statistics' không tìm thấy trong controller 'AdminController'. Requested URI: admin/statistics
+[2025-06-04 18:42:30] [ERROR] 404 - Action 'manage_recovery_codes' không tìm thấy trong controller 'AdminController'. Requested URI: admin/manage-recovery-codes
+[2025-06-05 08:42:37] [ERROR] Lỗi kết nối CSDL: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-06-05 08:42:41] [ERROR] Lỗi kết nối CSDL: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-06-05 08:42:57] [ERROR] Lỗi kết nối CSDL: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[2025-06-05 17:03:20] [ERROR] 404 - Class 'GameCodeController' không định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/GameCodeController.php). URI: admin/manage-recovery-codes
+[2025-06-05 17:46:23] [ERROR] 404 - Admin module không xác định: manage-products
+[2025-06-05 17:46:29] [ERROR] 404 - Controller class 'AdminUserController' không được định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/AdminUserController.php có thể tồn tại nhưng tên class sai hoặc có lỗi parse). Requested URI: admin/user
+[2025-06-05 17:46:41] [ERROR] 404 - Controller class 'AdminUserController' không được định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/AdminUserController.php có thể tồn tại nhưng tên class sai hoặc có lỗi parse). Requested URI: admin/user
+[2025-06-05 17:50:33] [ERROR] 404 - Admin module không xác định: product-edit
+[2025-06-05 17:51:01] [ERROR] 404 - Admin module không xác định: product-edit
+[2025-06-05 17:56:01] [ERROR] 404 - Admin module không xác định: generate-game-codes
+[2025-06-05 18:00:18] [ERROR] 404 - Admin module không xác định: generate-game-codes
+[2025-06-05 18:01:28] [ERROR] 404 - Admin module không xác định: user-edit
+[2025-06-05 18:04:35] [ERROR] 404 - Admin module không xác định: user-edit
+[2025-06-05 18:05:02] [ERROR] 404 - Admin module không xác định: edit-payment-gateway
+[2025-06-05 18:07:45] [ERROR] 404 - Admin module không xác định: edit-payment-gateway
+[2025-06-05 18:07:59] [ERROR] 404 - Admin module không xác định: payment-gateways
+[2025-06-05 18:08:02] [ERROR] 404 - Admin module không xác định: payment-gateways
+[2025-06-05 18:54:56] [ERROR] 404 - Controller class 'ProductController' không được định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/ProductController.php có thể tồn tại nhưng tên class sai hoặc có lỗi parse). Requested URI: product/show/2
+[2025-06-05 18:55:01] [ERROR] 404 - Controller class 'ProductController' không được định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/ProductController.php có thể tồn tại nhưng tên class sai hoặc có lỗi parse). Requested URI: 
+[2025-06-05 18:55:03] [ERROR] 404 - Controller class 'ProductController' không được định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/ProductController.php có thể tồn tại nhưng tên class sai hoặc có lỗi parse). Requested URI: 
+[2025-06-05 18:55:04] [ERROR] 404 - Controller class 'ProductController' không được định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/ProductController.php có thể tồn tại nhưng tên class sai hoặc có lỗi parse). Requested URI: 
+[2025-06-05 20:26:51] [INFO] [AdminProduct/Edit GET] Loading edit form for product ID: 4. Data: {"id":4,"name":"","description":null,"price":"0.00","image_url":"images\/products\/img_6841777dc89325.72848130.png","video_url":null,"is_active":1,"created_at":"2025-06-04 13:11:07","updated_at":"2025-06-05 20:18:24","category_id":null,"available_stock":0,"total_codes_linked":1,"gallery_images":[{"id":1,"product_id":4,"image_path":"images\/products\/img_68419920baa7d5.81346322.jpg","alt_text":"IMG_3556","sort_order":0,"created_at":"2025-06-05 20:18:24"},{"id":2,"product_id":4,"image_path":"images\/products\/img_68419920baeb23.64290707.png","alt_text":"IMG_6957 (1)","sort_order":1,"created_at":"2025-06-05 20:18:24"},{"id":3,"product_id":4,"image_path":"images\/products\/img_68419920bb3911.95405016.png","alt_text":"HUI GIAU GIAU","sort_order":2,"created_at":"2025-06-05 20:18:24"}]}
+[2025-06-05 20:27:15] [INFO] [AdminProduct/DeleteGalleryImage] Attempting to delete image ID: 3 for product ID: 4
+[2025-06-05 20:27:15] [INFO] [AdminProduct/DeleteGalleryImage] Successfully deleted image ID: 3
+[2025-06-05 20:27:15] [INFO] [AdminProduct/Edit GET] Loading edit form for product ID: 4. Data: {"id":4,"name":"","description":null,"price":"0.00","image_url":"images\/products\/img_6841777dc89325.72848130.png","video_url":null,"is_active":1,"created_at":"2025-06-04 13:11:07","updated_at":"2025-06-05 20:18:24","category_id":null,"available_stock":0,"total_codes_linked":1,"gallery_images":[{"id":1,"product_id":4,"image_path":"images\/products\/img_68419920baa7d5.81346322.jpg","alt_text":"IMG_3556","sort_order":0,"created_at":"2025-06-05 20:18:24"},{"id":2,"product_id":4,"image_path":"images\/products\/img_68419920baeb23.64290707.png","alt_text":"IMG_6957 (1)","sort_order":1,"created_at":"2025-06-05 20:18:24"}]}
+[2025-06-05 20:27:18] [INFO] [AdminProduct/DeleteGalleryImage] Attempting to delete image ID: 2 for product ID: 4
+[2025-06-05 20:27:18] [INFO] [AdminProduct/DeleteGalleryImage] Successfully deleted image ID: 2
+[2025-06-05 20:27:18] [INFO] [AdminProduct/Edit GET] Loading edit form for product ID: 4. Data: {"id":4,"name":"","description":null,"price":"0.00","image_url":"images\/products\/img_6841777dc89325.72848130.png","video_url":null,"is_active":1,"created_at":"2025-06-04 13:11:07","updated_at":"2025-06-05 20:18:24","category_id":null,"available_stock":0,"total_codes_linked":1,"gallery_images":[{"id":1,"product_id":4,"image_path":"images\/products\/img_68419920baa7d5.81346322.jpg","alt_text":"IMG_3556","sort_order":0,"created_at":"2025-06-05 20:18:24"}]}
+[2025-06-05 20:27:21] [INFO] [AdminProduct/Edit GET] Loading edit form for product ID: 4. Data: {"id":4,"name":"","description":null,"price":"0.00","image_url":"images\/products\/img_6841777dc89325.72848130.png","video_url":null,"is_active":1,"created_at":"2025-06-04 13:11:07","updated_at":"2025-06-05 20:18:24","category_id":null,"available_stock":0,"total_codes_linked":1,"gallery_images":[{"id":1,"product_id":4,"image_path":"images\/products\/img_68419920baa7d5.81346322.jpg","alt_text":"IMG_3556","sort_order":0,"created_at":"2025-06-05 20:18:24"}]}
+[2025-06-05 20:27:21] [INFO] [AdminProduct/Edit POST] Received POST for product ID: 4. Data: {"name":"","description":"","video_url":"","price":"0.00","is_active":"1","image_id":"1","product_id":"4"}
+[2025-06-05 20:27:21] [INFO] [AdminProduct/Edit POST] Received FILES: {"product_image":{"name":"","full_path":"","type":"","tmp_name":"","error":4,"size":0}}
+[2025-06-05 20:27:21] [INFO] [AdminProduct/Edit POST] Validation errors (main): {"name":"T\u00ean lo\u1ea1i s\u1ea3n ph\u1ea9m kh\u00f4ng \u0111\u01b0\u1ee3c \u0111\u1ec3 tr\u1ed1ng.","price":"Gi\u00e1 kh\u00f4ng h\u1ee3p l\u1ec7 (ph\u1ea3i l\u00e0 s\u1ed1 d\u01b0\u01a1ng)."}
+[2025-06-05 20:27:23] [INFO] [AdminProduct/Edit GET] Loading edit form for product ID: 4. Data: {"id":4,"name":"","description":null,"price":"0.00","image_url":"images\/products\/img_6841777dc89325.72848130.png","video_url":null,"is_active":1,"created_at":"2025-06-04 13:11:07","updated_at":"2025-06-05 20:18:24","category_id":null,"available_stock":0,"total_codes_linked":1,"gallery_images":[{"id":1,"product_id":4,"image_path":"images\/products\/img_68419920baa7d5.81346322.jpg","alt_text":"IMG_3556","sort_order":0,"created_at":"2025-06-05 20:18:24"}]}
+[2025-06-05 20:27:23] [INFO] [AdminProduct/Edit POST] Received POST for product ID: 4. Data: {"name":"","description":"","video_url":"","price":"0.00","is_active":"1","image_id":"1","product_id":"4"}
+[2025-06-05 20:27:23] [INFO] [AdminProduct/Edit POST] Received FILES: {"product_image":{"name":"","full_path":"","type":"","tmp_name":"","error":4,"size":0}}
+[2025-06-05 20:27:23] [INFO] [AdminProduct/Edit POST] Validation errors (main): {"name":"T\u00ean lo\u1ea1i s\u1ea3n ph\u1ea9m kh\u00f4ng \u0111\u01b0\u1ee3c \u0111\u1ec3 tr\u1ed1ng.","price":"Gi\u00e1 kh\u00f4ng h\u1ee3p l\u1ec7 (ph\u1ea3i l\u00e0 s\u1ed1 d\u01b0\u01a1ng)."}
+[2025-06-05 21:03:58] [INFO] [AdminProduct/DeleteGalleryImage] Successfully deleted image ID: 1
+[2025-06-05 21:10:52] [INFO] [AdminProduct/DeleteGalleryImage] Successfully deleted image ID: 6
+[2025-06-05 21:10:55] [INFO] [AdminProduct/DeleteGalleryImage] Successfully deleted image ID: 5
+[2025-06-05 22:06:23] [WARNING] WARNING: Class MediaFileModel không tìm thấy trong ProductModel.
+[2025-06-05 22:06:29] [WARNING] WARNING: Class MediaFileModel không tìm thấy trong ProductModel.
+[2025-06-05 22:06:32] [WARNING] WARNING: Class MediaFileModel không tìm thấy trong ProductModel.
+[2025-06-05 22:07:30] [WARNING] WARNING: Class MediaFileModel không tìm thấy trong ProductModel.
+[2025-06-05 22:07:31] [WARNING] WARNING: Class MediaFileModel không tìm thấy trong ProductModel.
+[2025-06-05 22:28:59] [WARNING] WARNING: Class MediaFileModel không tìm thấy trong ProductModel.
+[2025-06-05 22:29:02] [ERROR] 404 - Admin module không xác định: media
+[2025-06-05 22:35:42] [WARNING] WARNING: Class MediaFileModel không tìm thấy trong ProductModel.
+[2025-06-05 22:35:44] [ERROR] FATAL ERROR: Class MediaFileModel không tìm thấy trong AdminMediaController.
+[2025-06-05 22:41:11] [WARNING] Upload lỗi: Định dạng file không được phép - 'webp'.
+[2025-06-05 22:41:30] [ERROR] Lỗi thực thi SQL: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`bulu_monster`.`products`, CONSTRAINT `fk_products_main_image_media` FOREIGN KEY (`main_image_media_id`) REFERENCES `media_files` (`id`) ON DELETE SET NULL) | SQL: UPDATE products SET 
+                    name = :name, 
+                    description = :description, 
+                    price = :price, 
+                    main_image_media_id = :main_image_media_id,
+                    video_url = :video_url,
+                    category_id = :category_id,
+                    is_active = :is_active,
+                    updated_at = CURRENT_TIMESTAMP
+                WHERE id = :id
+[2025-06-05 22:47:23] [ERROR] Lỗi thực thi SQL: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`bulu_monster`.`products`, CONSTRAINT `fk_products_main_image_media` FOREIGN KEY (`main_image_media_id`) REFERENCES `media_files` (`id`) ON DELETE SET NULL) | SQL: UPDATE products SET 
+                    name = :name, 
+                    description = :description, 
+                    price = :price, 
+                    main_image_media_id = :main_image_media_id,
+                    video_url = :video_url,
+                    category_id = :category_id,
+                    is_active = :is_active,
+                    updated_at = CURRENT_TIMESTAMP
+                WHERE id = :id
+[2025-06-05 22:56:17] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/http:/localhost/bulu-monster-shop/assets/media_library/products/gallery/2025/06/file_6841bde41fdf87.82724706.png
+[2025-06-05 22:56:22] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/http:/localhost/bulu-monster-shop/assets/media_library/products/main/2025/06/file_6841be0670f038.22595818.png
+[2025-06-05 22:56:25] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/http:/localhost/bulu-monster-shop/assets/media_library/products/gallery/2025/06/file_6841bde41fdf87.82724706.png
+[2025-06-05 23:44:26] [ERROR] 404 - Admin module không xác định: assets
+[2025-06-05 23:44:54] [ERROR] 404 - Admin module không xác định: assets
+[2025-06-05 23:45:20] [ERROR] 404 - Admin module không xác định: assets
+[2025-06-06 00:14:08] [ERROR] 404 - Admin module không xác định: assets
+[2025-06-06 00:25:31] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/http:/localhost/bulu-monster-shop/assets/media_library/products/main/2025/06/file_6841be0670f038.22595818.png
+[2025-06-06 00:25:43] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/http:/localhost/bulu-monster-shop/assets/media_library/products/main/2025/06/file_6841be0670f038.22595818.png
+[2025-06-06 00:46:24] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/http:/localhost/bulu-monster-shop/assets/media_library/products/main/2025/06/file_6841be0670f038.22595818.png
+[2025-06-06 12:38:18] [ERROR] 404 - Admin module không xác định: manage-transactions
+[2025-06-06 12:38:20] [ERROR] 404 - Admin module không xác định: manage-transactions
+[2025-06-06 12:52:43] [ERROR] 404 - Admin module không xác định: view-transaction
+[2025-06-06 12:52:53] [ERROR] 404 - Admin module không xác định: view-transaction
+[2025-06-06 13:01:33] [ERROR] 404 - Admin module không xác định: view-transaction
+[2025-06-06 14:26:09] [ERROR] 404 - Admin module không xác định: payment-gateways
+[2025-06-06 14:26:14] [ERROR] 404 - Admin module không xác định: payment-gateways
+[2025-06-06 14:26:16] [ERROR] 404 - Admin module không xác định: payment-gateways
+[2025-06-06 14:26:28] [ERROR] 404 - Admin module không xác định: payment-gateways
+[2025-06-06 14:37:21] [ERROR] 404 - Admin module không xác định: edit-seo-setting
+[2025-06-06 14:37:32] [ERROR] 404 - Admin module không xác định: edit-seo-setting
+[2025-06-06 14:37:51] [ERROR] 404 - Admin module không xác định: edit-seo-setting
+[2025-06-06 14:42:28] [ERROR] 404 - Admin module không xác định: edit-seo-setting
+[2025-06-06 14:42:39] [ERROR] 404 - Admin module không xác định: seo-settings
+[2025-06-06 14:42:41] [ERROR] 404 - Admin module không xác định: seo-settings
+[2025-06-06 14:42:42] [ERROR] 404 - Admin module không xác định: seo-settings
+[2025-06-06 14:42:45] [ERROR] 404 - Admin module không xác định: seo-settings
+[2025-06-06 14:42:54] [ERROR] 404 - Admin module không xác định: seo-settings
+[2025-06-06 14:43:47] [ERROR] 404 - Admin module không xác định: manage-users
+[2025-06-06 14:44:08] [ERROR] 404 - Admin module không xác định: manage-user
+[2025-06-06 14:44:10] [ERROR] 404 - Admin module không xác định: manage-users
+[2025-06-06 14:44:59] [ERROR] 404 - Admin module không xác định: payment-gateways
+[2025-06-06 14:48:49] [INFO] [PayOSGateway] Create Payment Request. OrderCode: DEP-2-1749196129-440, PartnerCode (from config): justinanh. Payload (example): {"orderCode":0,"amount":50000,"description":"Nap tien tai khoan DEP-2-1749196129-440","buyerName":"Ph\u1ea1m Ho\u00e0ng \u0110\u1ee9c Anh","buyerEmail":"anhdrg3@gmail.com","buyerPhone":"09xxxxxxxx","cancelUrl":"http:\/\/localhost\/bulu-monster-shop\/public\/payment\/deposit-cancel\/19\/payos","returnUrl":"http:\/\/localhost\/bulu-monster-shop\/public\/payment\/deposit-success\/19\/payos"}
+[2025-06-06 14:48:53] [ERROR] 404 - Class 'ApiController' không định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/ApiController.php). URI: api/webhook-handler.php
+[2025-06-06 14:48:55] [ERROR] 404 - Controller file 'Transaction-historyController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/Transaction-historyController.php) không tìm thấy. URI: transaction-history
+[2025-06-06 15:20:19] [ERROR] Không tìm thấy handler class cho cổng thanh toán: Timo Bank
+[2025-06-06 15:35:33] [ERROR] 404 - Class 'PaymentGatewayController' không định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/PaymentGatewayController.php). URI: admin/payment-gateway
+[2025-06-06 15:35:34] [ERROR] 404 - Class 'PaymentGatewayController' không định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/PaymentGatewayController.php). URI: admin/payment-gateway
+[2025-06-06 15:35:36] [ERROR] 404 - Class 'PaymentGatewayController' không định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/PaymentGatewayController.php). URI: admin/payment-gateway/edit/2
+[2025-06-06 15:35:37] [ERROR] 404 - Class 'PaymentGatewayController' không định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/PaymentGatewayController.php). URI: admin/payment-gateway
+[2025-06-06 15:35:38] [ERROR] 404 - Class 'PaymentGatewayController' không định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/PaymentGatewayController.php). URI: admin/payment-gateway/edit/1
+[2025-06-06 15:35:38] [ERROR] 404 - Class 'PaymentGatewayController' không định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/PaymentGatewayController.php). URI: admin/payment-gateway
+[2025-06-06 15:35:45] [ERROR] 404 - Class 'PaymentGatewayController' không định nghĩa (file D:\xamp\htdocs\bulu-monster-shop/controllers/Admin/PaymentGatewayController.php). URI: admin/payment-gateway
+[2025-06-06 15:40:39] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 15:41:46] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/payos_logo.png
+[2025-06-06 15:41:46] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:41:49] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:41:49] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/payos_logo.png
+[2025-06-06 15:42:07] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/payos_logo.png
+[2025-06-06 15:42:07] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:53:04] [ERROR] 404 - Action 'process_deposit' không tìm thấy trong controller 'PaymentController'. URI: payment/process-deposit
+[2025-06-06 15:53:08] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 15:56:38] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 15:56:39] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 15:56:40] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 15:56:43] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:56:47] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/payos_logo.png
+[2025-06-06 15:56:47] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:56:49] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:56:50] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:56:59] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:58:23] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:58:26] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 15:58:28] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/payos_logo.png
+[2025-06-06 15:58:28] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 16:20:41] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/payos_logo.png
+[2025-06-06 16:20:41] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/sepay_logo.png
+[2025-06-06 18:31:18] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: D:\xamp\htdocs\bulu-monster-shop/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 18:32:39] [ERROR] Lỗi duyệt giao dịch #36: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list'
+[2025-06-06 18:32:51] [ERROR] Lỗi duyệt giao dịch #36: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'updated_at' in 'field list'
+[2025-06-06 19:34:13] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: /home/ysatdbhshosting/domains/bulumonster.kiotweb.io.vn/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 19:34:16] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: /home/ysatdbhshosting/domains/bulumonster.kiotweb.io.vn/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 19:34:17] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: /home/ysatdbhshosting/domains/bulumonster.kiotweb.io.vn/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 19:34:51] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: /home/ysatdbhshosting/domains/bulumonster.kiotweb.io.vn/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 19:39:21] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: /home/ysatdbhshosting/domains/bulumonster.kiotweb.io.vn/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 21:50:49] [ERROR] 404 - Controller file 'AssetsController.php' (dự kiến: /home/ysatdbhshosting/domains/bulumonster.kiotweb.io.vn/controllers/AssetsController.php) không tìm thấy. URI: assets/images/placeholder.jpg
+[2025-06-06 21:54:40] [WEBHOOK] Webhook received for gateway: Timo bank
+[2025-06-06 21:54:40] [WEBHOOK_ERROR] Webhook Error: Invalid JSON body.
